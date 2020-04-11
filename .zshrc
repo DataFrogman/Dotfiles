@@ -68,7 +68,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages)
+plugins=(git colored-man-pages ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,8 +109,11 @@ alias python="python3"
 alias quit="exit"
 alias dcup="docker-compose up --build"
 alias dcrm="docker-compose rm -sf"
+alias q="exit"
+alias sl="ls"
 
 cd ~
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+export EDITOR=/usr/bin/vim
