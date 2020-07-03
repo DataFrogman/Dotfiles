@@ -103,14 +103,16 @@ fi
 alias vimrc="vim ~/.vimrc"
 alias zshrc="vim ~/.zshrc && source ~/.zshrc"
 alias vi="vim"
-alias l="ls -la"
+alias l="exa -la"
 alias c="clear"
 alias python="python3"
 alias quit="exit"
 alias dcup="docker-compose up --build"
 alias dcrm="docker-compose rm -sf"
 alias q="exit"
-alias sl="ls"
+alias sl="exa"
+alias ls="exa"
+alias cat="bat"
 
 cd ~
 
